@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px 100%;
+    text-align: center;
+}
+div.sticky th{
+    position: -webkit-sticky;
+    position: sticky;
+    top: -2px;
+    padding: 5px;
+  }
+.container{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.caption{
+    background-color: rgba(59, 59, 59, 0.801);
+    width: 100%;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    background-color: rgba(248, 248, 248, 0.445);
+    width: 100%;
+}
+td, th{
+    border: 1px solid black;
+    padding: 2px;
+}
+.th.nth-child(odd){
+    background-color: green;
+}
+tr:nth-child(even){
+    background-color: rgba(250, 220, 230, 0.8);
+}
+tr:nth-child(odd){
+    background-color: rgba(250, 250, 220, 0.8);
+}
+th{
+    background-color: rgb(245, 0, 102);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+.caption{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+.extra_name{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+.person_name{
+    width: 170px;
+}
+.first_name{
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.last_name{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.fathers_name{
+    width: 135px;
+    text-align: center;
+}
+.mothers_name{
+    width: 155px;
+    text-align: center;
+}
+.address_style{
+    font-size: 12px;
+    text-align: left;
+    width: 130px;
+}
+.position_style{
+    font-size: 12px;
+    text-align: center;
+    width: 100px;
+}
+.main_work{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.phone_number{
+    font-size: 14px;
+    width: 140px;
+    font-weight: bold;
+}
+.e-mail{
+    font-size: 14px;
+    text-align: left;
+    width: 140px;
+}
+.people_pic{
+    width: 85px;
+}
+
+.pic_people{
+    height: 60px;
+    width: 60px;
+    border: 4px solid green;
+}
+.pic_people{
+    transition: transform 2s;
+    cursor: pointer;
+  }
+  
+.pic_people:hover {
+    transform: scale(2.5); 
+    border: 4px solid red;
+  }
+.pic_people:active{
+      border: 4px solid black;
+  }
+.relation{
+    font-size: 10px;
+    text-align: center;
+}
+.family a{
+    font-size: 12px;
+    color: red;
+}
